@@ -1,4 +1,4 @@
-local find_map = function (lhs)
+local find_map = function(lhs)
     local maps = vim.api.nvim_get_keymap('n')
     for _ ,map in ipairs(maps) do
         if map.lhs == lhs then
