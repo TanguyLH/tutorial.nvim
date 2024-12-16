@@ -23,7 +23,7 @@ The lua folder is the one that will be added to the Lua runtime.
 
 As mentioned above :
 
-`
+```
 myplugin.nvim/
   |
   |--lua/
@@ -33,7 +33,7 @@ myplugin.nvim/
   |--plugin/
   |--------keymaps.lua
   |--------autocommands.lua
-`
+```
 
 With this, we can require "myplugin". It will either look for lua/myplugin.lua
 or lua/myplugin/init.lua
